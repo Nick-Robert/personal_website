@@ -1,0 +1,207 @@
+/* General CSS Elements */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", "Arial";
+    font-size: 2rem;
+    color:black;
+    background:darkslategrey;
+    margin: 0;
+    padding: 0;
+}
+
+.banner h1 {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+footer {
+    background-color:darkcyan;
+    padding: 1%;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+
+p {
+    margin-top: 0;
+    text-align: justify;
+}
+
+li {
+    list-style: none;
+    font-size:50%;
+}
+
+h4 {
+    margin-left: 8%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Specific Class' CSS */
+
+.about-me {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    background-color: darkblue;
+    color:azure;
+    box-shadow: darkgrey;
+    margin: 0rem;
+    padding: 1%
+}
+
+.service {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    background-color: darkblue;
+    color:azure;
+    box-shadow: darkgrey;
+    margin: 0rem;
+    padding: 1%
+}
+
+.headshot {
+    height: auto;
+    width: 50%;
+    float: right;
+    text-align: justify;
+    margin: 2rem;
+    top: 50%;
+}
+
+.banner {
+    background-color:darkcyan;
+    overflow: hidden;
+    padding: 1%;
+    width: 100%;
+}
+
+.page-wrapper {
+    color:cornsilk;
+    padding: 0 175px 0 110px;
+    margin: 0;
+    position: relative;
+}
+
+.banner a {
+    float: left;
+    color:aqua;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#banner-links {
+    margin-left: 8%;
+    margin-top: 0;
+}
+
+.banner a:hover {
+    background-color:rgb(23, 105, 105);
+    color: black;
+}
+
+.banner-right {
+    overflow: hidden;
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.tech-portfolio {
+    height: 100%;
+    width: 100%;
+    background-color: darkblue;
+    color:azure;
+    margin: 0rem;
+    padding: 1%
+}
+
+.tech-portfolio a {
+    color:aqua;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tech-portfolio a:hover {
+    background-color:rgb(23, 105, 105);
+    color: black;
+}
+
+#resume {
+    width: 50%;
+    height: 1200px;
+    float: left;
+    text-align: justify;
+    margin: 20px;
+}
+
+.qualifications {
+    background-color: darkblue;
+    color:azure;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+}
+
+.fourier-img {
+    height: auto;
+    width: 25%;
+    float: right;
+    text-align: justify;
+    margin: 1rem;
+    top: 10%;
+}
+
+/* Button Banner CSS */
+
+.banner-buttons {
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: azure;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right: 10px;
+    margin-bottom: 1%
+}
+
+.banner-buttons span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.banner-buttons::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: azure;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+
+.banner-buttons:hover::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: azure;
+    display: block;
+}

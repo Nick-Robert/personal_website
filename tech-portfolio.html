@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_1.css"></link>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="page-wrapper", id="page-wrapper">
+
+        <div class="banner", role="banner">
+            <h1> Nicholas Robert </h1>
+            <h4> Contact me at:</h4>
+                <p id="banner-links">
+                    <a href="mailto:nick_robert20@tamu.edu" target="_blank" rel="noopener noreferrer"> nick_robert20@tamu.edu </a>
+                    <a href="https://www.linkedin.com/in/nick-robert-tamu/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
+                </p>
+            <div class="banner-right">
+                <button class="banner-buttons" type="button" onclick="home_button()">Home</button>
+                <button class="banner-buttons" type="button" onclick="tech_portfolio_button()">Technical Portfolio</button>
+                <button class="banner-buttons" type="button" onclick="qualifications_button()">Qualifications</button>
+                <button class="banner-buttons" type="button" onclick="style_toggle_button()">Switch Theme</button>
+                <script src="functions.js"></script>
+            </div>
+        </div>
+
+        <section class="tech-portfolio", id="tech-portfolio", role="article">
+            <h3> Technical Portfolio </h3>
+            <p> 
+                <a href="https://github.com/Nick-Robert" target="_blank" rel="noopener noreferrer">Link to my personal Github</a><br>
+                <a href="https://github.tamu.edu/Nick-Robert20" target="_blank" rel="noopener noreferrer">Link to my school account's Github</a>
+            </p>
+
+            <p> I have a couple completed projects already, and I am planning to start and build on a couple more. The most recent project I've done involves using the Fourier series to break down any given svg image into a sum of sinusoids (see an explanation of Fourier Series <a href="https://en.wikipedia.org/wiki/Fourier_series" target="_blank" rel="noopener noreferrer">here</a>, and the project's ReadMe <a href="https://github.com/Nick-Robert/Fourier_Drawing" target="_blank" rel="noopener noreferrer">here</a>). From there, the original image can be redrawn to whatever degree of accuracy desired. I am currently working on a visual representation of the drawing sinusoids, and I will update the repository as I continue to progress. This project can be found in my personal Github with a much more detailed readme page, and there is a sample image recreating the Texas A&M logo to the right. In that image, the blue line is the approximation with around 500 sinusoids, and the red is the original picture. </p>
+
+            <img class="fourier-img" id="fourier-img" src="media/2_tamu_fixed_ex.png" alt="TAMU Logo Approximation">
+            <p> The other couple projects I've done are a game in Python called Dodge and a Kaggle competition program. I made the Python game in a class in high school. Some of the code was not written by me since we followed a light tutorial for how to use Pygame (such as how to create a game window, how to organize the files properly, etc.), but the specifics about the game itself were created by me. </p>
+            <p> The Kaggle program was created as a submission to a competition on Kaggle, where participants submitted bot "agents" which would play rock, paper, scissors with other bots, 1000 rounds of the game with each bot. Those bots with more wins would climb up the leaderboard. The point of the competition was to create some machine learning algorithm which would, on average, do better than its competitors by predicting their moves. I competed in this event with a friend, and we ended up scoring bronze (placed 149 out of more than 1600 participating teams). My Kaggle profile is linked <a href="https://www.kaggle.com/nickrob" target="_blank" rel="noopener noreferrer">here</a>. </p>
+            <p> Lastly, I plan on starting a real deep learning project. I'm currently reading through a couple of textbooks about deep learning: one explains the theory and math behind the algorithm and the other discusses implementations in Python. I'm nearly done reading through the first textbook, which is available online for free <a href="http://neuralnetworksanddeeplearning.com/chap1.html" target="_blank" rel="noopener noreferrer"> here</a>. Once I progress enough in the implementation textbook, which is listed on Amazon at <a href = "https://www.amazon.com/Deep-Learning-Python-Francois-Chollet/dp/1617294438" target="_blank" rel="noopener noreferrer">this</a> link, I'll start my project. The project will likely be a neural network that attempts to read human emotion and action through video. </p>
+        </section>
+
+        <footer>
+            Website v1.0. Last updated on February 7, 2022. Built with native HTML, CSS, and JS.
+        </footer>
+
+    </div>
+</body>
+</html>
