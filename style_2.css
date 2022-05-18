@@ -39,10 +39,25 @@ footer {
     margin-left: 8px;
 }
 
-#banner-links a {
+.banner-title-container h4 {
+    text-align: center;
+    color:grey;
+    margin:0%;
+}
+
+.banner-title-container h1 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.banner-links {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    margin-left: 20%;
+    /* margin-left: 20%; */
+    display: flex;
+    justify-content: center;
 }
 
 .banner a {
@@ -51,13 +66,14 @@ footer {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.banner h1 {
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.banner-links-container {
+    margin:10%;
 }
 
-.banner h4 {
+.banner-links-container h4 {
     text-align: center;
+    color:grey;
+    margin:0%;
 }
 
 .headshot {
@@ -168,7 +184,7 @@ footer {
 
 /* Button Banner CSS */
 
-.banner-buttons {
+.banner-button {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:cadetblue;
     border: none;
@@ -180,11 +196,18 @@ footer {
     display: inline-block;
     font-size: 15px;
     cursor: pointer;
-    margin-left: 25%;
-    margin-bottom: 1%
+    /* margin-left: 25%; */
+    margin-bottom: 1%;
+    height: 10%;
+    width: 95%;
+    margin-left: 5%
 }
 
-.banner-buttons:hover {
+/* .banner-button-list {
+    background-color:aquamarine
+} */
+
+.banner-button:hover {
     background-color:darkorchid;
     transition: 0.5s ease-in-out;
 }

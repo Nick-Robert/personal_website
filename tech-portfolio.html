@@ -12,19 +12,28 @@
     <div class="page-wrapper", id="page-wrapper">
 
         <div class="banner", role="banner">
-            <h1> Nicholas Robert </h1>
-            <h4> Contact me at:</h4>
-                <p id="banner-links">
-                    <a href="mailto:nick_robert20@tamu.edu" target="_blank" rel="noopener noreferrer"> nick_robert20@tamu.edu </a>
-                    <a href="https://www.linkedin.com/in/nick-robert-tamu/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
-                </p>
-            <div class="banner-right">
-                <button class="banner-buttons" type="button" onclick="home_button()">Home</button>
-                <button class="banner-buttons" type="button" onclick="tech_portfolio_button()">Technical Portfolio</button>
-                <button class="banner-buttons" type="button" onclick="qualifications_button()">Qualifications</button>
-                <!-- <button class="banner-buttons" type="button" onclick="style_toggle_button()">Switch Theme</button> -->
-                <script src="functions.js"></script>
+            <div class="banner-title-container">
+                <h1> Nicholas Robert </h1>
+                <h4> Contact me at:</h4>
             </div>
+
+            <div class="banner-links-container">
+                <table class="banner-links">
+                    <tr> <td> <a href="mailto:nick_robert20@tamu.edu" target="_blank" rel="noopener noreferrer"> nick_robert20@tamu.edu </a> </td> </tr>
+                    <tr> <td> <a href="https://www.linkedin.com/in/nick-robert-tamu/" target="_blank" rel="noopener noreferrer"> LinkedIn </a> </td> </tr>
+                </table>
+            </div>
+
+            <div class="banner-buttons-container">
+                <table class="banner-button-list">
+                    <tr> <button class="banner-button" type="button" onclick="home_button()">Home</button> </tr>
+                    <tr> <button class="banner-button" type="button" onclick="tech_portfolio_button()">Technical Portfolio</button> </tr>
+                    <tr> <button class="banner-button" type="button" onclick="qualifications_button()">Qualifications</button> </tr>
+                </table>
+            </div>
+            
+            <!-- <button class="banner-buttons" type="button" onclick="style_toggle_button()">Switch Theme</button> -->
+            <script src="functions.js"></script>
         </div>
 
         <section class="tech-portfolio", id="tech-portfolio", role="article">
